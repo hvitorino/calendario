@@ -13,7 +13,7 @@ public class DadoUmCalendarioDaMaria {
 	private CalendarioDaMaria calendario;
 	
 	@Test
-	public void PossoTestarSeUmaDataEhDiaDaMaria() {
+	public void possoTestarSeUmaDataEhDiaDaMaria() {
 		calendario = new CalendarioDaMaria(); 
 		
 		assertTrue(calendario.testarData(new Date()));;
